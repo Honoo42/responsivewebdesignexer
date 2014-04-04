@@ -1,0 +1,84 @@
+@media screen and (max-width: 959px) {
+  nav {
+    padding: 10px;
+  }
+
+  .main {
+    padding: 10px;
+  }
+}
+@media screen and (max-width: 932) {
+  nav {
+    display: block;
+    width: 100%;
+    font-size: .5em;
+  }
+
+  .gallery img {
+    display: block;
+    width: 100%;
+  }
+}
+.bark {
+  max-width: 960px;
+  position: relative;
+  background-color: #7f8c8d;
+  font-size: 14px;
+}
+
+.header {
+  width: 100%;
+  background-color: #3498db;
+  text-align: center;
+  line-height: 95px;
+  color: #fff;
+  font-size: 3em;
+  position: relative;
+  display: inline-block;
+}
+
+.navmenu {
+  display: inline-block;
+  width: 50%;
+  background-color: #9b59b6;
+  position: relative;
+  padding: 1%;
+  margin: 0% 0% 0% 25%;
+}
+
+.listitems {
+  display: inline-block;
+}
+
+.main {
+  width: 50%;
+  position: relative;
+  margin: 0% 0% 0% 25%;
+  display: inline-block;
+  background-color: #f1c40f;
+  padding-left: 2%;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: pink;
+}
+
+.imgbig {
+  width: 75%;
+  position: relative;
+}
+
+.gallery {
+  display: table;
+  background-color: red;
+  width: 99%;
+  margin: 0% 0% 10% 0%;
+}
+
+.gallery li:last-child {
+  margin: 0 auto;
+}

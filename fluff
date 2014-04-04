@@ -1,0 +1,51 @@
+.bark{
+	max-width: 960px;
+	position: relative;
+	background-color: #7f8c8d;
+}
+.header{
+	height: 200px;
+	background-color: #red;
+	width: 100%;
+	display: inline-block;
+}
+.navmenu{
+	display: inline-block;
+	background-color: #9b59b6;
+	color: #fff;
+	text-align: right;
+	position: relative;
+	margin: 0% 0% 0% 30%
+}
+.navmenu li:last-child{
+	padding-right: 1.4%;
+}
+.listitems {
+	text-align: right;
+	display:inline-block;
+}
+.main{
+	background-color: #d35400;
+	width: 39%;
+	position: absolute;
+	margin: 0% 0% 0% 30%;
+}
+a{
+	text-decoration:none;
+}
+a:hover{
+	color: yellow;
+}
+.imgbig{
+	max-width: 100%;
+	position: relative;
+	padding-left: 3.2%;
+}
+.gallery{
+	text-align: right;
+	display: inline-block;
+	background: #000;
+	width: 70%;
+	margin: 0% 0% 0% 15%;
+}
+
